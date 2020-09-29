@@ -46,7 +46,8 @@ The `administrators` command allows you to set the permissions of different role
 ---
 ## Aliases
 
-* `admins`
+* `admins`  
+
 ---
 
 ### **Author: AG6**

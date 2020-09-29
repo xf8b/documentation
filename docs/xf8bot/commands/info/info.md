@@ -12,7 +12,7 @@ The `info` command sends you the information about the bot, such as the GitHub R
 
 ---
 ## Usage
-* `{prefix}info`
+* `{prefix}info`  
 
 Sends the information about the bot.   
 Currently contains: 
