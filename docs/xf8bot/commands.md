@@ -34,9 +34,9 @@ To see the documentation for the commands below, click on the command name.
 * [`prefix`](https://xf8b.github.io/documentation/xf8bot/commands/other/prefix/): Sets the prefix for xf8bot. (NOTE: This is actually not in the `Administration` section, it is in the `Other` section)  
 * [`administrators`](https://xf8b.github.io/documentation/xf8bot/commands/administration/level_4/administrators/): Adds to, removes from, or gets all the roles that can do administrator only commands.  
 ## Bot Administrator Only  
-`eval`: Evaluates code. Bot administrators only!  
-`shutdown`: Shuts down the bot. Bot administrators only!  
-`say`: Sends the passed in content to the current channel.  
+* `eval`: Evaluates code. Bot administrators only!  
+* `shutdown`: Shuts down the bot. Bot administrators only!  
+* `say`: Sends the passed in content to the current channel.  
 ## Other
 * `slap`: Slaps the person.
 
