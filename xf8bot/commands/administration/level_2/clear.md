@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Clear Command
-permalink: /docs/commands/administration/level_2/clear/
+permalink: /xf8bot/commands/administration/level_2/clear/
 ---
 
 # Clear Command

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: xf8bot Commands
-permalink: /docs/commands/
+permalink: /xf8bot/commands/
 ---
 # xf8bot Commands
 To see the documentation for the commands below, click on the command name.

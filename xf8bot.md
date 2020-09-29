@@ -1,7 +1,7 @@
 ---
 layout: default
 title: xf8bot Documentation
-permalink: /docs/
+permalink: /xf8bot/
 ---
 # xf8bot Documentation
 If you don't know what xf8bot is, I suggest going to the page for it at [https://xf8b.github.io/creations/xf8bot/](https://xf8b.github.io/creations/xf8bot/).

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Administrators Command
-permalink: /docs/commands/administration/level_4/administrators/
+permalink: /xf8bot/commands/administration/level_4/administrators/
 ---
 
 # Administrators Command

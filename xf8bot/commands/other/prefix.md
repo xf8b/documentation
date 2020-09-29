@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Prefixes Command
-permalink: /docs/commands/other/prefix/
+permalink: /xf8bot/commands/other/prefix/
 ---
 
 # Prefix Command

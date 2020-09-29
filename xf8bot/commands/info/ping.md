@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ping Command
-permalink: /docs/commands/info/ping/
+permalink: /xf8bot/commands/info/ping/
 ---
 
 # Ping command

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nickname Command
-permalink: /docs/commands/administration/level_1/nickname/
+permalink: /xf8bot/commands/administration/level_1/nickname/
 ---
 
 # Nickname Command

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Play Command
-permalink: /docs/commands/music/play/
+permalink: /xf8bot/commands/music/play/
 ---
 # Play Command
 ## Info

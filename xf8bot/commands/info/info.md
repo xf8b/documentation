@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Info Command
-permalink: /docs/commands/info/info/
+permalink: /xf8bot/commands/info/info/
 ---
 
 # Information Command

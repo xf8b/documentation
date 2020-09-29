@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Startup Guide
-permalink: /docs/startup/
+permalink: /xf8bot/startup/
 ---
 
 
