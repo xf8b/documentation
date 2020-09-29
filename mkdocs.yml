@@ -6,12 +6,13 @@ nav:
   - xf8bot:
       - Contributors: xf8bot/contributors.md
       - Documentation: xf8bot/index.md
-      - Commands: xf8bot/commands.md
-        - Sections:
-            - Administration: xf8bot/commands/administration/index.md
-            - Bot Administrator: xf8bot/commands/bot_administrator/index.md
-            - Info: xf8bot/commands/info/index.md
-            - Music: xf8bot/commands/music/index.md
-            - Other: xf8bot/commands/other/index.md
+      - Commands:
+          - List of Commands: xf8bot/commands.md
+          - Sections:
+              - Administration: xf8bot/commands/administration/index.md
+              - Bot Administrator: xf8bot/commands/bot_administrator/index.md
+              - Info: xf8bot/commands/info/index.md
+              - Music: xf8bot/commands/music/index.md
+              - Other: xf8bot/commands/other/index.md
       - Startup Guide: xf8bot/startup.md
   - License: LICENSE.md
