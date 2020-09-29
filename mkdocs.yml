@@ -3,6 +3,7 @@ theme:
   name: material
 nav:
   - Home: index.md
+  - xf8bot Contributors: xf8bot/contributors.md
   - xf8bot Documentation: xf8bot/index.md
   - xf8bot Commands: xf8bot/commands.md
   - xf8bot Startup Guide: xf8bot/startup.md

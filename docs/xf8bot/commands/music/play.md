@@ -8,6 +8,7 @@ permalink: /xf8bot/commands/music/play/
 The `play` command is used for music and allows you to play your favourite songs (that are on Youtube) through the bot!
 
 **Anyone can use this command.**
+
 ---
 
 ## Usage
