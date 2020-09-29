@@ -16,6 +16,7 @@ The `play` command is used for music and allows you to play your favourite songs
 * NOTE: Required Parameters = <> and Optional Parameters = []
 
 Usage: `{prefix}play <youtubeLink/youtubePlaylist/youtubeVideoOrPlaylistName>`
+
 * NOTE: You can add play playlists by typing in the youtube playlist link.
 
 ---

@@ -26,22 +26,26 @@ The `administrators` command allows you to set the permissions of different role
 * NOTE: Required Parameters = <> and Optional Parameters = []
 
 `addRole` - adds a role to the list of administrators.
+
 * Usage: `{prefix}administators addRole -r <role mention/rolename/roleid> -l <1/2/3/4>` 
 * Flags: role - `--role` & `-r` , level - `-l` & `--level`
 * Aliases: `add`, `addRole`
 
 `removeRole` - removes a role from the list of administrators.
+
 * Usage: `{prefix}administrators removeRole -r <role mention/rolename/roleId>`
 * Flags: role - `--role` & `-r`
 * Aliases `remove`, `removeRole`, `rm`
 
 `getRoles` - gets the roles from the list of administrators.
+
 * Usage: `{prefix}administrators getRoles`
 * Flags: none
 * Aliases: `ls`, `list`, `listroles`, `get`, `getroles`
 
 ---
 ## Aliases
+
 * `admins`
 ---
 
