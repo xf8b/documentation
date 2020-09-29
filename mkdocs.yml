@@ -3,7 +3,9 @@ theme:
   name: material
 nav:
   - Home: index.md
-  - xf8bot Contributors: xf8bot/contributors.md
-  - xf8bot Documentation: xf8bot/index.md
-  - xf8bot Commands: xf8bot/commands.md
-  - xf8bot Startup Guide: xf8bot/startup.md
+  - xf8bot:
+    - Contributors: xf8bot/contributors.md
+    - Documentation: xf8bot/index.md
+    - Commands: xf8bot/commands.md
+    - Startup Guide: xf8bot/startup.md
+  - License: LICENSE.md
