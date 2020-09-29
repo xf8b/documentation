@@ -7,5 +7,5 @@ nav:
     - Contributors: xf8bot/contributors.md
     - Documentation: xf8bot/index.md
     - Commands: xf8bot/commands.md
-    - Startup Guide: xf8bot/startup.md
+    - 'Startup Guide': xf8bot/startup.md
   - License: LICENSE.md
