@@ -272,3 +272,6 @@ dist
 
 # config
 .idea/
+
+# mkdocs
+site/
