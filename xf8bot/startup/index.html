@@ -511,8 +511,8 @@
 See <a href="https://docs.github.com/en/free-pro-team@latest/packages/managing-container-images-with-github-container-registry/pushing-and-pulling-docker-images#authenticating-to-github-container-registry">the GitHub docs</a> if you need help.<br />
 1. Install Docker if you haven't.<br />
 2. Authenticate to the GitHub Container Registry.<br />
-3. Run <code>docker pull ghcr.io/xf8b/xf8bot</code> to pull the image.<br />
-4. Run <code>docker run xf8bot:TAG ARGS</code>, with <code>TAG</code> being the version you would like to run (latest or stable) and <code>ARGS</code> being the program arguments that you pass in. For a full list of program arguments, see <a href="https://xf8b.github.io/documentation/xf8bot/args/">the documentation</a>.<br />
+3. Run <code>docker pull ghcr.io/xf8b/xf8bot:TAG</code>, with <code>TAG</code> being the version you would like to install to pull the image. (latest or stable)<br />
+4. Run <code>docker run xf8bot:TAG ARGS</code>, with <code>TAG</code> being the version you would like to run (you must have pulled from ghcr with the tag before using it) (latest or stable) and <code>ARGS</code> being the program arguments that you pass in. For a full list of program arguments, see <a href="https://xf8b.github.io/documentation/xf8bot/args/">the documentation</a>.<br />
 5. Invite the bot to your server.  <br />
 6. You're done.    </p>
 <h3 id="self-compiling">Self Compiling</h3>
