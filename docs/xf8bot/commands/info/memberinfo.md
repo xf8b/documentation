@@ -6,7 +6,8 @@ permalink: /xf8bot/commands/info/memberinfo/
 
 # Information Command
 
-The `memberinfo` command tells information about the member, such as their roles or when they joined the server .
+The `memberinfo` command tells information about the member, such as their roles
+or when they joined the server .
 
 **Anyone can use this command.**
 
@@ -16,8 +17,7 @@ The `memberinfo` command tells information about the member, such as their roles
 
 - `{prefix}memberinfo <@user/userId/username>`
 
-Sends the information about the member passed in.
-Currently contains:
+Sends the information about the member passed in. Currently contains:
 
 - Activity
 - Status
