@@ -12,7 +12,7 @@ The `memberinfo` command tells you the information about the members.
 
 ---
 ## Usage
-* `{prefix}memberinfo <@user/userId/username>`  
+* `{prefix}memberinfo <@user/userId/username>`
 
 Sends the information about the member passed in.   
 Currently contains: 
