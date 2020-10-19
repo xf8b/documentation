@@ -6,7 +6,7 @@ permalink: /xf8bot/commands/info/memberinfo/
 
 # Information Command
 
-The `memberinfo` command tells you the information about the members.
+The `memberinfo` command tells you the information about the tells information about the member, such as their roles or when they joined the server.
 
 **Anyone can use this command.**
 
