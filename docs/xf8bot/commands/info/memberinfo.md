@@ -7,7 +7,7 @@ permalink: /xf8bot/commands/info/memberinfo/
 # Information Command
 
 The `memberinfo` command tells information about the member, such as their roles
-or when they joined the server .
+or when they joined the server.
 
 **Anyone can use this command.**
 
@@ -23,11 +23,11 @@ Sends the information about the member passed in. Currently contains:
 - Status
 - Roles
 - Avatar URL
-- Joined Discord
-- Joined server
-- Role Color
-- Is Owner
-- Is Bot
+- When they joined Discord
+- When they joined the server
+- Role color
+- If they are owner
+- If they are bot
 
 ### **Author: Lone Wolf**
 
