@@ -8,7 +8,7 @@ To see the documentation for the commands below, click on the command name.
 ## Info
 * `help`: Shows the commands available and gives information on them.  
 * [`information`](https://xf8b.github.io/documentation/xf8bot/commands/info/info/): Shows some information about xf8bot.  
-* `memberinfo`: Shows information about the member.    
+* [`memberinfo`](https://xf8b.github.io/documentation/xf8bot/commands/info/memberinfo/): Shows information about the member.    
 * [`ping`](https://xf8b.github.io/documentation/xf8bot/commands/info/ping/): Shows the ping. Pretty useless.  
 ## Music
 * `join`: Joins your current VC.  
