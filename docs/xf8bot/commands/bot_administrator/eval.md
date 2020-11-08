@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Info Command
+title: Eval Command
 permalink: /xf8bot/commands/bot_adminstrator/eval/
 ---
 
 # Eval Command
 
-The `eval` command allows you to execute/evaluate code.
+The `eval` command allows you to execute/evaluate Groovy code.
 
 **This command is only available to bot administrators.**
 
@@ -19,7 +19,7 @@ Usage: `{prefix}eval <code to evaluate>`
 
 ---
 ## Aliases
-`evaluate`
+- `evaluate`
 
 ### **Author: AG6**
 
