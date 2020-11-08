@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shutdown Command
-permalink: /xf8bot/commands/bot_adminstrator/shutdown/
+permalink: /xf8bot/commands/bot_administrator/shutdown/
 ---
 
 # Shutdown Command
