@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eval Command
-permalink: /xf8bot/commands/bot_adminstrator/eval/
+permalink: /xf8bot/commands/bot_administrator/eval/
 ---
 
 # Eval Command
