@@ -1,24 +1,21 @@
 ---
 layout: default
-title: Prefixes Command
-permalink: /xf8bot/commands/other/prefix/
+title: Skip Command
+permalink: /xf8bot/commands/music/skip/
 ---
-
-# Prefix Command
+# Skip Command
 ## Info
-The prefix command sets the prefix for the server. 
+The `skip` command skips the current song playing.
 
-A prefix is what you put before you do a command, for example `>`.
-
-**This is a level 4 command.**
+**Anyone can use this command.**
 
 ---
+
 ## Usage
 
 * NOTE: Required Parameters = <> and Optional Parameters = []
+Usage: `{prefix}skip [numberOfSongs]`
 
-* Usage: `{prefix}prefix [newPrefix]`
-* Note: Leaving the `newPrefix` parameter blank will reset the prefix to `>`, the default prefix.
 ---
 
 ### **Author: AG6**

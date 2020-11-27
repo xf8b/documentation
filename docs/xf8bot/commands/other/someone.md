@@ -1,24 +1,20 @@
 ---
 layout: default
-title: Prefixes Command
-permalink: /xf8bot/commands/other/prefix/
+title: Someone Command
+permalink: /xf8bot/commands/other/someone/
 ---
 
-# Prefix Command
+# Someone Command
 ## Info
-The prefix command sets the prefix for the server. 
+The `someone` command pings a random user in the current server.
 
-A prefix is what you put before you do a command, for example `>`.
-
-**This is a level 4 command.**
+**Anyone can use this command.**
 
 ---
 ## Usage
 
-* NOTE: Required Parameters = <> and Optional Parameters = []
+* Usage: `{prefix}someone`
 
-* Usage: `{prefix}prefix [newPrefix]`
-* Note: Leaving the `newPrefix` parameter blank will reset the prefix to `>`, the default prefix.
 ---
 
 ### **Author: AG6**

@@ -1,25 +1,26 @@
 ---
 layout: default
-title: Prefixes Command
-permalink: /xf8bot/commands/other/prefix/
+title: CurrentlyPlaying Command
+permalink: /xf8bot/commands/music/currentlyplaying/
 ---
-
-# Prefix Command
+# CurrentlyPlaying Command
 ## Info
-The prefix command sets the prefix for the server. 
+The `currentlyplaying` clears the current queue of songs.
 
-A prefix is what you put before you do a command, for example `>`.
-
-**This is a level 4 command.**
+**Anyone can use this command.**
 
 ---
+
 ## Usage
 
-* NOTE: Required Parameters = <> and Optional Parameters = []
+Usage: `{prefix}currentlyplaying`
 
-* Usage: `{prefix}prefix [newPrefix]`
-* Note: Leaving the `newPrefix` parameter blank will reset the prefix to `>`, the default prefix.
 ---
+
+## Aliases
+- `np`
+- `nowplaying`
+- `playing`
 
 ### **Author: AG6**
 
