@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/skip/
 ---
 # Skip Command
 ## Info
-The `skip` command skips the current song playing.
+The `skip` command skips the current song playing. If the music is currently paused or stopped, it starts it back up.
 
 **Anyone can use this command.**
 
