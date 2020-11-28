@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Clearqueue Command
+title: Clear Queue Command
 permalink: /xf8bot/commands/music/clearqueue/
 ---
 # Clearqueue Command
