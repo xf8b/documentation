@@ -14,7 +14,7 @@ The `skip` command skips the current song playing.
 ## Usage
 
 * NOTE: Required Parameters = <> and Optional Parameters = []
-Usage: `{prefix}skip [numberOfSongs]`
+Usage: `{prefix}skip [numberOfSongs (defaults to 1)]`
 
 ---
 
