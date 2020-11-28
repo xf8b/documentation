@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/pause/
 ---
 # Pause Command
 ## Info
-The `pause` command pauses the current audio playing.
+The `pause` command pauses the current music playing.
 
 **Anyone can use this command.**
 
