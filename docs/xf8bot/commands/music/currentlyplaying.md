@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/currentlyplaying/
 ---
 # CurrentlyPlaying Command
 ## Info
-The `currentlyplaying` clears the current queue of songs.
+The `currentlyplaying` shows the song currently playing in your VC.
 
 **Anyone can use this command.**
 
