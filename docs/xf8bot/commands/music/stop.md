@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/stop/
 ---
 # Stop Command
 ## Info
-The `stop` command stops the current audio playing.
+The `stop` command stops the current music playing.
 
 **Anyone can use this command.**
 
