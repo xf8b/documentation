@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/leave/
 ---
 # Leave Command
 ## Info
-The `leave` commands makes the bot leave the voice channel.
+The `leave` command makes the bot leave the voice channel it is currently in.
 
 **Anyone can use this command.**
 
