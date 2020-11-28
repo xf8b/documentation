@@ -18,6 +18,7 @@ The `volume` command changes the volume of the audio playing through the bot.
 Usage: `{prefix}volume <volume>`
 
 * NOTE: The max volume is 400 and min volume is 1.
+* WARNING: Setting a volume higher than 100 **MAY** blast your ears out. We are not liable for that, please be careful when using this.
 
 ---
 
