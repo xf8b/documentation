@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/clearqueue/
 ---
 # Clear Queue Command
 ## Info
-The `clearqueue` clears the current queue of songs.
+The `clearqueue` command clears the current queue of songs.
 
 **Anyone can use this command.**
 
