@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CurrentlyPlaying Command
+title: Currently Playing Command
 permalink: /xf8bot/commands/music/currentlyplaying/
 ---
 # CurrentlyPlaying Command
