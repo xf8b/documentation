@@ -3,7 +3,7 @@ layout: default
 title: Currently Playing Command
 permalink: /xf8bot/commands/music/currentlyplaying/
 ---
-# CurrentlyPlaying Command
+# Currently Playing Command
 ## Info
 The `currentlyplaying` shows the song currently playing in your VC.
 
