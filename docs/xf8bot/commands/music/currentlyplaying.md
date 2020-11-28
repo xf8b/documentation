@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/currentlyplaying/
 ---
 # Currently Playing Command
 ## Info
-The `currentlyplaying` shows the song currently playing in your VC.
+The `currentlyplaying` command shows the song currently playing in the VC the bot is in.
 
 **Anyone can use this command.**
 
