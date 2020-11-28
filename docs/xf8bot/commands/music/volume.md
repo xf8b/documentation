@@ -5,7 +5,7 @@ permalink: /xf8bot/commands/music/volume/
 ---
 # Volume Command
 ## Info
-The `volume` command changes the volume of the audio playing through the bot.
+The `volume` command changes the volume of the music currently playing. **Can blast out your ears if the volume is over 100, please be careful.**
 
 **Anyone can use this command.**
 
