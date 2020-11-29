@@ -13,7 +13,8 @@ The `someone` command pings a random user in the current server.
 ---
 ## Usage
 
-* Usage: `{prefix}someone`
+* Usage: `{prefix}someone [-i [ignoreBots] (default if not specified: false, default if just "-i", true)]`
+* Flags: ignore bots - `--ignoreBots` & `-i`
 
 ---
 
