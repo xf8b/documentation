@@ -1,18 +1,17 @@
 ---
 layout: default
-title: Prefixes Command
-permalink: /xf8bot/commands/other/prefix/
+title: Volume Command
+permalink: /xf8bot/commands/music/volume/
 ---
 
-# Prefix Command
+# Volume Command
 
 ## Info
 
-The prefix command sets the prefix for the server.
+The `volume` command changes the volume of the music currently playing. **Can
+blast out your ears if the volume is over 100, please be careful.**
 
-A prefix is what you put before you do a command, for example `>`.
-
-**This is a level 4 command.**
+**Anyone can use this command.**
 
 ---
 
@@ -20,9 +19,11 @@ A prefix is what you put before you do a command, for example `>`.
 
 - NOTE: Required Parameters = <> and Optional Parameters = []
 
-- Usage: `{prefix}prefix [newPrefix]`
-- Note: Leaving the `newPrefix` parameter blank will reset the prefix to `>`,
-  the default prefix.
+Usage: `{prefix}volume <volume>`
+
+- NOTE: The max volume is 400 and min volume is 1.
+- WARNING: Setting a volume higher than 100 **MAY** blast your ears out. We are
+  not liable for that, please be careful when using this.
 
 ---
 

@@ -1,28 +1,22 @@
 ---
 layout: default
-title: Prefixes Command
-permalink: /xf8bot/commands/other/prefix/
+title: Clear Queue Command
+permalink: /xf8bot/commands/music/clearqueue/
 ---
 
-# Prefix Command
+# Clear Queue Command
 
 ## Info
 
-The prefix command sets the prefix for the server.
+The `clearqueue` command clears the current queue of songs.
 
-A prefix is what you put before you do a command, for example `>`.
-
-**This is a level 4 command.**
+**Anyone can use this command.**
 
 ---
 
 ## Usage
 
-- NOTE: Required Parameters = <> and Optional Parameters = []
-
-- Usage: `{prefix}prefix [newPrefix]`
-- Note: Leaving the `newPrefix` parameter blank will reset the prefix to `>`,
-  the default prefix.
+Usage: `{prefix}clearqueue`
 
 ---
 
