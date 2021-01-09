@@ -11,7 +11,9 @@ The `ping` command tells you about the latency to the websocket and the latency 
 **Anyone can use this command.**
 
 ---
+
 ## Usage
+
 * `{prefix}ping`
 
 ### **Author: Lone Wolf**

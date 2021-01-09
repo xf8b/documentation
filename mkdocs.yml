@@ -15,4 +15,4 @@ nav:
               - Music: xf8bot/commands/music/index.md
               - Other: xf8bot/commands/other/index.md
       - Startup Guide: xf8bot/startup.md
-  - License: LICENSE.txt
+  - License: LICENSE.md

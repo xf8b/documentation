@@ -6,16 +6,19 @@ permalink: /xf8bot/commands/info/info/
 
 # Information Command
 
-The `info` command sends you the information about the bot, such as the GitHub Repository, documentation and the current prefix.
+The `info` command sends you the information about the bot,
+such as the GitHub Repository, documentation and the current prefix.
 
 **Anyone can use this command.**
 
 ---
+
 ## Usage
-* `{prefix}info`  
+
+* `{prefix}info`
 
 Sends the information about the bot.   
-Currently contains: 
+Currently contains:
 
 * the GitHub repository
 * the documentation
