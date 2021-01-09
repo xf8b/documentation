@@ -454,7 +454,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../LICENSE.txt" class="md-nav__link">
+    <a href="../../LICENSE/" class="md-nav__link">
       License
     </a>
   </li>
@@ -533,39 +533,57 @@
                 
                 
                 <h1 id="startup-guide">Startup Guide</h1>
-<p>You need:  </p>
+<p>You need:</p>
 <ul>
-<li>A bot token (See <a href="#how-to-get-a-token">How To Get A Token</a>)  </li>
-<li>Java 15 (I recommend <a href="https://adoptopenjdk.net">AdoptOpenJDK</a>)    </li>
-<li>A MongoDB Server (You can use the <a href="https://www.mongodb.com/cloud/atlas/signup">cloud server they provide for free</a> or host your own)  </li>
+<li>A bot token (See <a href="#how-to-get-a-token">How To Get A Token</a>)</li>
+<li>Java 15 (I recommend <a href="https://adoptopenjdk.net">AdoptOpenJDK</a>)</li>
+<li>A PostgreSQL server</li>
 </ul>
 <h3 id="using-docker">Using Docker</h3>
 <p><strong>You must have a GitHub account and a PAT for authenticating!</strong><br />
-See <a href="https://docs.github.com/en/free-pro-team@latest/packages/managing-container-images-with-github-container-registry/pushing-and-pulling-docker-images#authenticating-to-github-container-registry">the GitHub docs</a> if you need help.<br />
-1. Install Docker if you haven't.<br />
-2. Authenticate to the GitHub Container Registry.<br />
-3. Run <code>docker pull ghcr.io/xf8b/xf8bot:TAG</code>, with <code>TAG</code> being the version you would like to install to pull the image. (latest or stable)<br />
-4. Run <code>docker run xf8bot:TAG ARGS</code>, with <code>TAG</code> being the version you would like to run (you must have pulled from ghcr with the tag before using it) (latest or stable) and <code>ARGS</code> being the program arguments that you pass in. For a full list of program arguments, see <a href="https://xf8b.github.io/documentation/xf8bot/args/">the documentation</a>.<br />
-5. Invite the bot to your server.  <br />
-6. You're done.    </p>
+See <a href="https://docs.github.com/en/free-pro-team@latest/packages/managing-container-images-with-github-container-registry/pushing-and-pulling-docker-images#authenticating-to-github-container-registry">the GitHub docs</a>
+if you need help.</p>
+<ol>
+<li>Install Docker if you haven't.</li>
+<li>Authenticate to the GitHub Container Registry.</li>
+<li>Run <code>docker pull ghcr.io/xf8b/xf8bot:TAG</code><ul>
+<li><code>TAG</code> is the version you would like to install to pull the image. (latest or stable)</li>
+</ul>
+</li>
+<li>Run <code>docker run xf8bot:TAG ARGS</code><ul>
+<li><code>TAG</code> is the version you would like to run 
+  (you must have pulled from GitHub Container Registry with the tag before using it)
+  (latest or stable)</li>
+<li><code>ARGS</code> is the program arguments that you pass in. For a full list of program arguments,
+  see <a href="https://xf8b.github.io/documentation/xf8bot/args/">the documentation</a>.</li>
+</ul>
+</li>
+<li>Invite the bot to your server.</li>
+<li>You're done.</li>
+</ol>
 <h3 id="self-compiling">Self Compiling</h3>
 <ol>
-<li>Download the code, and run <code>gradlew shadowJar</code> (or <code>./gradlew shadowJar</code> for Mac and Linux).    </li>
-<li>The jar file will be in <code>build/libs</code>.  </li>
-<li>Run that using <code>java -jar xf8bot-x.x.x-all.jar</code>. (optionally you can add program arguments so you don't have to do step 4. see <a href="https://xf8b.github.io/documentation/xf8bot/args/">the documentation</a>)</li>
+<li>Download the code, and run <code>gradlew shadowJar</code> (or <code>./gradlew shadowJar</code> for Mac and Linux).</li>
+<li>The jar file will be in <code>build/libs</code>.</li>
+<li>Run that using <code>java -jar xf8bot-x.x.x-all.jar</code>.
+   (Optionally, you can add program arguments so that you don't have to do step 4.
+   See <a href="https://xf8b.github.io/documentation/xf8bot/args/">the documentation</a>.)</li>
 <li>It will fail because of the invalid token.<br />
-You must go to <code>config.toml</code> and fill out the fields that are under <code>required</code>.  </li>
-<li>Invite the bot to your server.  </li>
-<li>You're done.  </li>
+   You must go to <code>config.toml</code> and fill out the fields that are under <code>required</code>.</li>
+<li>Invite the bot to your server.</li>
+<li>You're done.</li>
 </ol>
 <h2 id="config">Config</h2>
-<p>You must setup (if you use the config file):</p>
+<p>You must set up (if you use the config file):</p>
 <ul>
-<li>The MongoDB connection URL (See <a href="https://docs.mongodb.com/manual/reference/connection-string/">The MongoDB Documentation</a>)</li>
-<li>The MongoDB database name </li>
+<li>The MongoDB connection URL 
+  (See <a href="https://docs.mongodb.com/manual/reference/connection-string/">The MongoDB Documentation</a>)</li>
+<li>The MongoDB database name</li>
 <li>The token (See <a href="#how-to-get-a-token">How To Get A Token</a>)</li>
-<li>The bot administrators (Copy paste your user ID into the brackets (See <a href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-">Discord Support</a>))</li>
-<li>The sharding strategy (I recommend to keep it at <code>RECOMMENDED</code>)</li>
+<li>The bot administrators 
+  (Copy and paste your user ID into the brackets.
+  For help, see <a href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-">Discord Support</a>)</li>
+<li>The sharding strategy (I recommend keeping it at <code>RECOMMENDED</code>)</li>
 </ul>
 <p>You can remove the log dump webhook field by putting a # before it.</p>
 <h2 id="how-to-get-a-token">How To Get A Token</h2>
@@ -576,7 +594,9 @@ You must go to <code>config.toml</code> and fill out the fields that are under <
 <li>Type the name that you want the bot to be named.</li>
 <li>Click <strong>Bot</strong> on the side, and then click <strong>Add Bot</strong>. Press <strong>Confirm</strong>.</li>
 <li>You must go down and enable the <strong>Server Members Intent</strong>.</li>
-<li>You now have the token. Do not share this token, as it is basically the key to the bot. If you ever accidentally leak it, press the <strong>Regenerate</strong> button.</li>
+<li>You now have the token. 
+   Do not share this token, as it is basically the key to the bot. 
+   If you ever accidentally leak it, press the <strong>Regenerate</strong> button.</li>
 </ol>
 <h2 id="how-to-get-the-invite">How To Get The Invite</h2>
 <ol>
@@ -584,8 +604,9 @@ You must go to <code>config.toml</code> and fill out the fields that are under <
 <li>Login with your Discord account if you need to.</li>
 <li>Click the application that you created in the <a href="#how-to-get-a-token">How To Get A Token</a> section.</li>
 <li>Copy the <strong>Client ID</strong>.</li>
-<li>The template for the invite link is <code>https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&amp;permissions=8&amp;scope=bot</code>. Replace <code>CLIENT_ID</code> with the client id.</li>
-<li>You now have the invite. Copy paste the link into your browser and add it to your server.</li>
+<li>The template for the invite link is <code>https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&amp;permissions=8&amp;scope=bot</code>. 
+   Replace <code>CLIENT_ID</code> with the client id.</li>
+<li>You now have the invite. Copy and paste the link into your browser and add it to your server.</li>
 </ol>
 <p><b> <a rel="cc:attributionURL" property="dct:title" href="https://xf8b.github.io/documentation/xf8bot/">xf8bot Documentation</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/xf8b/">xf8b</a> is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a> </b> </p>
                 
@@ -623,7 +644,7 @@ You must go to <code>config.toml</code> and fill out the fields that are under <
           </a>
         
         
-          <a href="../../LICENSE.txt" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../LICENSE/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
